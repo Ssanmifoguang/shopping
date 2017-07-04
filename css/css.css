@@ -1,0 +1,186 @@
+*,ul,p{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+	list-style: none;
+	color: #333333;
+}
+.clearBox{
+	clear: both;
+}
+a:hover,a:active{
+	color: #f1f1f1;
+	text-decoration: none;
+}
+body{
+	background-image: url(../img/bg.png);
+}
+nav,footer,header,.container{
+	width: 100%;
+	min-width: 1200px;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+/*
+ * 小菜单
+ * */
+.innerBox{
+	width: 1200px;
+	height: 100%;
+	margin: 0 auto;
+}
+.userList{
+	height: 30px;
+	background-color: #A1A1A1;
+	overflow: hidden;
+}
+.userList ul{
+	margin: 4px 0;
+}
+.userList li{
+	float: left;
+	padding: 0 4px;
+}
+.userList li a{
+	color: #f1f1f1;
+}
+header,footer{
+	background-color: #f2f2f2;
+}
+/*
+ * 搜索
+ * */
+.search{
+	height: 120px;
+}
+.search .innerBox{
+	position: relative;
+}
+#logo{
+	display: inline-block;
+	height: 100px;
+	width: 230px;
+	margin-top: 8px;
+}
+.searchBox{
+	position: absolute;
+	top: 50px;
+	left: 340px;
+	width: 300px;
+	height: 30px;
+}
+.searchInput input{
+	height: 30px;
+	width: 270px;
+}
+.searchBtn{
+	height: 30px;
+	width: 30px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.searchBtn a{
+	display: block;
+	background-color: #B3B3B3;
+	width: 30px;
+	height: 30px;
+	padding: 2px;
+	transition:transform 0.2s linear ;
+}
+.searchBtn a:hover{
+	background-color: #A3A3A3;
+}
+.searchBtn img{
+	width: 26px;
+}
+/*
+ * 搜索
+ * */
+#logo img{
+	height: 100px;
+}
+nav{
+	background-color: #E85656;
+	height: 60px;
+	border-bottom:#D30009 10px solid;
+}
+nav .innerBox{
+	height: 100%;
+}
+nav ul{
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+nav li{
+	height: 100%;
+	float: left;
+	padding: 0px 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+nav li.active{
+	background-color:#D30009 ;
+}
+nav li a{
+	text-align: center;
+	font-size: 16px;
+	color: #f1f1f1;
+}
+nav li a:hover,nav li a:active,nav li a:visited{
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+.container{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0px;
+}
+/*
+ * 脚部
+ * */
+footer .promise{
+	background-color: #7C7C7C;
+}
+footer .promise .innerBox{
+	display: flex;
+	justify-content: center;
+}
+footer .promise .innerBox img{
+	display: block;
+	margin: 0 auto;
+	height: 50px;
+}
+footer ul{
+	overflow: hidden;
+}
+footer li{
+	height: 100%;
+	float: left;
+	padding: 12px 20px;
+}
+footer li a{
+	text-align: center;
+	font-size: 16px;
+	color: #f1f1f1;
+}
+footer .footerNav li a{
+	text-align: center;
+	font-size: 12px;
+	color: #7d7d7d;
+}
+.footerlogo{
+	display: block;
+}
+footer .footerNav{
+	display: flex;
+	justify-content: center;
+}

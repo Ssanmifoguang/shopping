@@ -1,0 +1,204 @@
+.content {
+	width: 1200px;
+	margin: auto;
+}
+
+.content:before,
+.content:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.content-nav {
+	width: 250px;
+	float: left;
+}
+
+.content .content-nav .content-nav-ul {
+	border: 1px solid #d0c9c9;
+	height: 360px;
+	width: 100%;
+	background-color: #FFFFFF;
+}
+
+.content .content-nav .content-nav-ul li {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	border-bottom: 1px solid #d0c9c9;
+	text-indent: 40px;
+}
+
+.content .content-nav .content-nav-ul li:last-child {
+	border-bottom: none;
+	background: url(../img/icons/food.png) no-repeat 10px 19px;
+}
+
+.content .content-nav .content-nav-ul li:nth-child(1) {
+	background: url(../img/icons/cam.png) no-repeat 10px 24px;
+}
+
+.content .content-nav .content-nav-ul li:nth-child(2) {
+	background: url(../img/icons/milk.png) no-repeat 15px 20px;
+}
+
+.content .content-nav .content-nav-ul li:nth-child(3) {
+	background: url(../img/icons/win.png) no-repeat 11px 21px;
+}
+
+.content .content-nav .content-nav-ul li:nth-child(4) {
+	background: url(../img/icons/wash.png) no-repeat 15px 20px;
+}
+
+.content .content-nav .content-nav-ul li:nth-child(5) {
+	background: url(../img/icons/dress.png) no-repeat 10px 22px;
+}
+
+.content .content-nav .content-nav-ul li a {
+	margin-left: 10px;
+	color: #999999;
+	font-size: 12px;
+	text-indent: 10px;
+	cursor: pointer;
+}
+
+.content .content-nav .content-nav-ul li a:hover {
+	text-decoration: underline;
+	color: #EA5757;
+}
+
+.content-banner {
+	width: 680px;
+	height: 360px;
+	float: left;
+	margin-left: 10px;
+	position: relative;
+}
+
+.content-banner .content-banner-ul {
+	width: 100%;
+	height: 360px;
+}
+
+.content-banner .content-banner-ul li {
+	width: 100%;
+	height: 360px;
+	position: absolute;
+}
+
+.content-banner .content-banner-ul img {
+	width: 100%;
+	height: 358px;
+	border: none;
+}
+
+.content-banner .prev,.content-banner .next{
+	width: 25px;
+	height: 30px;
+	position: absolute;
+	top: 164px;
+	display: none;
+}
+
+.content-banner .prev{
+	background: url(../img/prev.png) no-repeat;
+	left: 10px;
+}
+
+.content-banner .next{
+	background: url(../img/next.png) no-repeat;
+	right: 10px;
+}
+
+.content-download{
+	width: 250px;
+	height: 360px;
+	float: right;
+	background-color: #ffde5c;
+	padding: 10px 20px;
+}
+.content-download .download-form{
+	padding: 6px 26px;
+}
+.content-download .download-form a{
+	display: block;
+	height: 28px;
+	margin-bottom: 6px;
+	line-height: 28px;
+	color: #a3a1a1;
+	background-color: #262525;
+	text-align: center;
+	font-size: 12px;
+}
+.content-download .download-form a.right{
+	width: 74px;
+}
+.content-download .download-form a:hover{
+	background-color: #333333;
+	color: #c1c1c1;
+}
+.content-download div input{
+	height: 28px;
+	margin-bottom: 6px;
+	display: block;
+	width: 100%;
+}
+.content-download div input.sendMess{
+	width: 80px;
+}
+.content-download img{
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.panel .panel-heading{
+	background-color: #EA5757;
+	border-color: #EA5757;
+}
+
+.panel-primary{
+	margin-top: 10px;
+	border-color: #EA5757;
+	margin-bottom: 0;
+}
+
+.row > .productlist > .thumbnail{
+	border: none;
+}
+
+.row > .productlist > .thumbnail:hover{
+	box-shadow: 0px 0px 20px #ccc; 
+}
+.row > .productlist > .thumbnail p{
+	margin: 0;
+	height: 30px ;
+	line-height: 30px;
+}
+.row > .productlist > .thumbnail p.pro-Titile{
+	margin-top: 4px;
+	border-top: 1px solid #e85656;
+	font-size: 16px;
+}
+
+.row > .productlist > .thumbnail a{
+	background-color: #e85656;
+	color: #FFFFFF;
+}
+
+.row > .productlist .product-img{
+	height: 160px;
+	display: flex;
+	align-items: center;
+}
+
+.row > .productlist .product-img img{
+	width: 100%;
+	display: block;
+}
+.thumbnail{
+	float: left;
+}
+
+

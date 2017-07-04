@@ -1,0 +1,217 @@
+img{
+	margin: auto;
+	display: block;
+}
+.pulish>.photo,.pulish>.describe,.pulish>.info,.pulish>.foot{
+	margin-top: 50px;
+	width: 1200px;
+	height: 250px;
+	margin: auto;
+	background-color: white;
+}
+.pulish>.row:before{
+	content: " ";
+	margin-top: 20px;
+
+}
+.pulish>.photo>.btn{
+	margin: 30px 0 0 94px;
+	padding: 20px;
+	border-radius: 10px;
+}
+.pulish>.photo>.btn>p{
+	margin: 0px;
+}
+.pulish>.describe>textarea{
+	outline: none;
+	border: none;
+	width: 1200px;
+	height: 200px;
+	padding: 20px 94px;
+	text-indent: 2em;
+	resize: none;
+}
+.pulish>.describe>img{
+margin: 10px 0 0 80px;
+}
+
+.pulish>.info{
+	height: 120px;
+}
+.pulish>.info>ul{
+	margin: 0 auto;
+}
+.pulish>.info>ul>li{
+	padding: 48px 87px;
+	float: left;
+}
+.pulish>.contact_info>ul>li{
+	padding: 48px 100px;
+	float: left;
+}
+.pulish>.info>ul>li>i{
+	margin-right: 10px;
+}
+.pulish>.info>ul>li>select{
+	width: 157px;
+	
+}
+.pulish>.foot{
+	height: 350px;
+	background: none;
+}
+.pulish>.foot>div{
+	display: inline;
+	float: left;
+}
+.pulish>.foot>.sale{
+	padding-left: 80px;
+	padding-top: 60px;
+}
+.pulish>.foot>.contact{
+	padding-left: 150px;
+	padding-right: 100px;
+	padding-top: 20px;
+}
+.pulish>.foot{
+	height: 0px;
+}
+.pulish>.foot>div>ul>li{
+	border: 1px darkgrey solid;
+	background: white;
+	width: 420px;
+	height: 55px;
+	line-height: 55px;
+	margin-top: 20px;
+	padding-left: 20px;
+}
+.pulish>.foot>div>ul>li>input{
+	margin-left: 5px;
+	height: 40px;
+	border: none;
+	outline: none;
+}
+.pulish>.foot>.sale>ul>li>a{
+	margin-left: 100px;
+	
+}
+.pulish>.foot>.contact>p{
+	line-height: 10px;
+	margin: 0 0 0 10px;
+	font-weight: bolder;
+	font-size: 16px;
+}
+.pulish>.foot>button{
+	height: 36px;
+	line-height: 36px;
+	background-color: #7d7d7d;
+	border-radius: 10px;
+	color: white;
+	width: 60px;
+	float: right;
+	margin: 50px 130px 50px 0px;
+}
+.login_bg{
+	width: 100%;
+	background-color: #ea5656;
+	position: relative;
+}
+.login_bg>.innerBox>.box{
+	width: 1200px;
+	position: relative;
+	height: 556px;
+}
+.login_bg>.innerBox>.box>.login{
+	width: 325px;
+	height: 415px;
+	background-color: #f2f2f2;
+	position: absolute;
+	right: 180px;
+	bottom: 30px;
+	color: #7d7d7d;
+	padding: 35px;
+}
+.login_bg>.innerBox>.box>.login>.envelope{
+	border: 1px #7D7D7D solid;
+	border-bottom: none;
+	display: inline-block;
+	padding: 4px 10px;
+}
+.login_bg>.innerBox>.box>.login>.lock{
+	margin-top: 30px;
+}
+.login_bg>.innerBox>.box>.login>.check{
+	margin-top: 30px;
+	border: 1px #7D7D7D solid;
+}
+
+.login_bg>.innerBox>.box>.login>.mail{
+	border: 1px #7D7D7D solid;
+	
+}
+.login_bg>.innerBox>.box>.login>.check{
+	border: 1px #7D7D7D solid;
+	float: left;
+	
+}
+.login_bg>.innerBox>.box>.login>.mail>input{
+	border: none;
+	width: 100%;
+	height: 30px;
+	text-indent: 2em;
+	background: none;
+}
+.login_bg>.innerBox>.box>.login>.check_input>input{
+	text-indent: 1em;
+}
+.login_bg>.innerBox>.box>.login>.check_input{
+	border-left: none;
+	width: 75px;
+	margin-top: 30px;
+	height: 30px;
+	display: inline-block;
+	float: left;
+	
+}
+.login_bg>.innerBox>.box>.login>.check_img{
+	border: none;
+	margin-left: 15px;
+	margin-top: 30px;
+	height: 30px;
+	display: inline-block;
+	width: 120px;
+}
+.login_bg>.innerBox>.box>.login>.check_img>input{
+	float: left;
+	width: 70px;
+	display: inline-block;
+	border: 1px #7D7D7D solid;
+}
+.login_bg>.innerBox>.box>.login>.check_img>p{
+	line-height: 30px;
+}
+.login_bg>.innerBox>.box>.login>.checkbox{
+	margin-top: 30px;
+	margin-left: 20px;
+	display: block;
+	float: none;
+}
+.login_bg>.innerBox>.box>.login>.checkbox>p{
+	float: right;
+}
+.login_bg>.innerBox>.box>.login>.register{
+	margin-top: 10px;
+}
+.login_bg>.innerBox>.box>.login>.submit>input{
+	float: none;
+	background-color: #e60012;
+	width: 100%;
+	height: 33px;
+	color: white;
+	border: none;
+}
+.login_bg>.innerBox>.box>.login>.zhuce{
+	float: right;
+	color: #e60012;
+	margin: 10px 10px 0  0;
+}
